@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header styles */
+header {
+    background-color: #250;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 50px 0;
+}
+
+/* About Section */
+#about {
+    background-color: black;
+	color:white;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects .project-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+#contact form {
+    display: grid;
+    gap: 15px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
